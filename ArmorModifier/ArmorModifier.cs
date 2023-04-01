@@ -18,7 +18,7 @@ namespace ArmorModifier
     {
         public const string PluginGUID = "MainStreetGaming.ArmorModifier";
         public const string PluginName = "ArmorModifier";
-        public const string PluginVersion = "1.0.0";
+        public const string PluginVersion = "0.0.1";
 
         public static ConfigEntry<float> _helmetModifier;
         public static ConfigEntry<float> _chestModifier;
