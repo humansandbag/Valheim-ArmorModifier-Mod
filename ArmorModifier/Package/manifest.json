@@ -1,9 +1,10 @@
-﻿{
-  "name": "JotunnModStub",
-  "description": "",
-  "version_number": "0.0.1",
-  "website_url": "",
+{
+  "name": "ArmorModifier",
+  "version_number": "1.0.1",
+  "website_url": "https://github.com/humansandbag/Valheim-ArmorModifier-Mod",
+  "description": "Increase or reduce the armor of specific armor item types by a specified percentage",
   "dependencies": [
-    "ValheimModding-Jotunn-2.7.9",
+    "denikson-BepInExPack_Valheim-5.4.2105",
+    "ValheimModding-Jotunn-2.12.7"
   ]
 }

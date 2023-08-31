@@ -14,7 +14,7 @@ namespace ArmorModifier
     {
         public const string PluginGUID = "MainStreetGaming.ArmorModifier";
         public const string PluginName = "ArmorModifier";
-        public const string PluginVersion = "1.0.0";
+        public const string PluginVersion = "1.0.1";
 
         public static ConfigEntry<float> _helmetModifier;
         public static ConfigEntry<float> _chestModifier;
@@ -46,7 +46,7 @@ namespace ArmorModifier
             _capeModifier = Config.Bind("ArmorModifiers", "CapeModifier", 0f, new ConfigDescription("Percentage modifier for cape armor (negative values decrease armor, positive values increase armor)", null, isAdminOnly));
         }
 
-        [HarmonyPatch(typeof(ItemDrop.ItemData), "GetArmor", new System.Type[] { typeof(int) })]
+        [HarmonyPatch(typeof(ItemDrop.ItemData), "GetArmor", new System.Type[] { typeof(int), typeof(float) })]
         public class ArmorValueModifierPatch
         {
             // Prefix method runs before the original method and can modify its arguments and return value

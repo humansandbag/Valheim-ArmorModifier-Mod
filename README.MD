@@ -27,5 +27,8 @@ Copy the `ArmorModifier.dll` folder to `<GameDirectory>/BepInEx/plugins`.
 
 ## Changelog:
 
+### v1.0.1
+- Updates for Hildir's Request
+
 ### v1.0.0
 - Initial release
