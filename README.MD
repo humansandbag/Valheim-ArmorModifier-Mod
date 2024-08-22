@@ -25,10 +25,9 @@ Like this mod? Development requires a lot of coffee. Support me by buying me a c
 ### Manual
 Copy the `ArmorModifier.dll` folder to `<GameDirectory>/BepInEx/plugins`.
 
-## Changelog:
+## Changelog
+[GitHub Changelog](https://github.com/humansandbag/Valheim-ArmorModifier-Mod/blob/main/CHANGELOG.MD)
 
-### v1.0.1
-- Updates for Hildir's Request
-
-### v1.0.0
-- Initial release
+## Mod Author Details
+Author: [HumanSandbag](https://github.com/humansandbag)  
+Source: [GitHub](https://github.com/humansandbag/Valheim-ArmorModifier-Mod)
