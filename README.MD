@@ -1,5 +1,5 @@
 # ArmorModifier by Main Street Gaming
-Increases or reduces the armor value of specific armor item types by a specified percentage. It is intented for use with difficulty control mods such as CreatureLevelAndLootControl
+Increases or reduces the armor value of specific armor item types by a specified percentage. It is intended for use with difficulty control mods such as CreatureLevelAndLootControl
 By Smoothbrain to allow for further difficulty balancing.
 
 Like this mod? Development requires a lot of coffee. Support me by buying me a coffee!  
